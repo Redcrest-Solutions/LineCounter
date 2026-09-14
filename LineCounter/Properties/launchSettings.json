@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LineCounter": {
+      "commandName": "Project",
+      "commandLineArgs": "d:\\FlyingFleet d:\\Redcrest-Solutions\\AdvancedQuery d:\\Redcrest-Solutions\\MiniXlsx"
+    }
+  }
+}
