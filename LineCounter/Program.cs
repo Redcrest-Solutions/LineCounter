@@ -85,7 +85,7 @@
             Console.WriteLine("| Type | Files | Lines |");
             Console.WriteLine("|:--|--:|--:|");
             foreach (var f in nbFiles.Keys.OrderBy(r => KnownFileTypes[r]))
-                Console.WriteLine("| " + KnownFileTypes[f] + " | " + NumberFormat(nbRows[f]) + " | " + NumberFormat(nbFiles[f]) + " |");
+                Console.WriteLine("| " + KnownFileTypes[f] + " | " + NumberFormat(nbFiles[f]) + " | " + NumberFormat(nbRows[f]) + " |");
 
             Console.WriteLine("");
             Console.WriteLine("### Project total");
