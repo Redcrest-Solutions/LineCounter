@@ -11,7 +11,8 @@
             {".scss","SASS" },
             {".md","Markdown" },
             {".sh","Shell" },
-            {".py","Python" }
+            {".py","Python" },
+            {".java","Java" }
         };
 
         static Dictionary<string, int> LinesPerDayFactor = new Dictionary<string, int>
@@ -23,7 +24,8 @@
             {".scss",600 },
             {".md",300 },
             {".sh",100 },
-            {".py",300 }
+            {".py",300 },
+            {".java",300 },
         };
 
         static List<string> PathToIgnore = new List<string>
